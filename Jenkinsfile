@@ -11,7 +11,7 @@ pipeline {
         sh '''
           pwsh ./scripts/List-SmbContent.ps1 \
             -SmbPath "\\\\DEVSRV01\\Distribution Kits$" \
-            -Username "DOMAIN\\\\UserCopy"
+            -Username "wizsoft\\\\yermi"
         '''
       }
     }
